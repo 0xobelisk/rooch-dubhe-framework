@@ -1,7 +1,7 @@
-# aptos-dubhe-framework
+# rooch-dubhe-framework
 
 ## How to test
 
 ```bash
-aptos move test
+rooch move test
 ```

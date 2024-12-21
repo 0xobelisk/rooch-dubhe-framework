@@ -174,7 +174,7 @@ module dubhe::storage_map {
 
 
     // /// Get a reference to the value bound to `key` in `self`.
-    // /// Aborts if `key` is not bound in `self`.
+    // / // Aborts if `key` is not bound in `self`.
     // public fun get<K: copy + drop + store, V: copy + drop + store>(self: &StorageMap<K,V>, key: K): V {
     //     let idx = self.get_idx(key);
     //     let entry = &self.contents[idx];
